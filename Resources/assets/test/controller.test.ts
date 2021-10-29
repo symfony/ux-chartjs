@@ -12,7 +12,7 @@
 import { Application, Controller } from '@hotwired/stimulus';
 import { getByTestId, waitFor } from '@testing-library/dom';
 import { clearDOM, mountDOM } from '@symfony/stimulus-testing';
-import ChartjsController from '../dist/controller';
+import ChartjsController from '../src/controller';
 
 // Controller used to check the actual controller was properly booted
 class CheckController extends Controller {
