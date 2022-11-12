@@ -1,4 +1,4 @@
-const config = require('../../../../jest.config.js');
+const config = require('../../../jest.config.js');
 
 config.setupFilesAfterEnv.push('./test/setup.js');
 
