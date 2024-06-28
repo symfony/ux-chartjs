@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.23.0
+
+-   Listen to Stimulus `disconnect` event to destroy the chart #1944
+
 ## 2.18.0
 
 -   Replace `chartjs/auto` import with explicit `Chart.register()` call #1263
