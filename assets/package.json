@@ -2,8 +2,16 @@
     "name": "@symfony/ux-chartjs",
     "description": "Chart.js integration for Symfony",
     "license": "MIT",
-    "version": "1.1.0",
+    "version": "2.23.0",
+    "keywords": [
+        "symfony-ux"
+    ],
+    "homepage": "https://ux.symfony.com/chartjs",
+    "repository": "https://github.com/symfony/ux-chartjs/tree/2.x",
     "type": "module",
+    "files": [
+        "dist"
+    ],
     "main": "dist/controller.js",
     "types": "dist/controller.d.ts",
     "scripts": {
