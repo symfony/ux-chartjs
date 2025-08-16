@@ -10,7 +10,7 @@
 import { Application } from '@hotwired/stimulus';
 import { waitFor } from '@testing-library/dom';
 import { afterEach, beforeAll, describe, expect, it } from 'vitest';
-import ChartjsController from '../src/controller';
+import ChartjsController from '../../src/controller';
 
 // Kept track of globally, but just used in one test.
 // This is because, by the time that test has run, it is likely that the
